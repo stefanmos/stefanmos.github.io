@@ -1,0 +1,35 @@
+$column-width: 100% / $columns
+
+[class*='grid']:after
+  content: ""
+  display: table
+  clear: both
+
+.grid-full
+  width: 100%
+  height: 100vh
+  background: #ECECEC
+  border: 20px solid #FFF
+
+.grid
+  max-width: $grid-size
+  margin: -20px auto
+
+.column
+  float: left
+  padding: $content-padding
+
+@for $x from 1 through $columns
+  .column-#{$x}-#{$columns}
+    width: $column-width * $x
+    @extend .column
+
+@media (min-width: $mobile) and (max-width: $tablet)
+  @for $x from 1 through ($columns - 1)
+    .column-#{$x}-#{$columns}
+      width: 50%
+
+@media (max-width: $mobile)
+  @for $x from 1 through $columns
+    .column-#{$x}-#{$columns}
+      width: 100%

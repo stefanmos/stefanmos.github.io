@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900)
+
+// 5. Typography
+
+html
+  font-size: $font-base
+
+body
+  font-size: 14rem
+  font-family: $brand-font
+  line-height: $global-line-height
+  font-weight: 300
+  text-align: center
+
+h1,h2,h3,h4,h5,h6,small
+  font-weight: 700
+  margin: 0.05em 0
+
+h1
+  font-size: 70rem
+h2
+  font-size: 50rem
+h3
+  font-size: 20rem
+h4
+  font-size: 19rem
+h5
+  font-size: 9rem
+  font-family: $paragraph-font
+  text-transform: uppercase
+  letter-spacing: 2rem
+  margin: 1em 0
+h6
+  font-size: 7rem
+small
+  font-size: 8rem
+  font-family: $paragraph-font
+  font-weight: 300
+p
+  font-size: 14rem
+  margin-bottom: 1em
+  line-height: $paragraph-line-height
+  font-family: $paragraph-font
+b
+  font-weight: 500
+
+a
+  text-decoration: none
+  text-transform: uppercase
+  font-family: $paragraph-font
+  font-size: 12rem
+  font-weight: 600
+  letter-spacing: .5rem
+  color: $primary-color
+  &:hover
+    color: darken($primary-color, 50%)

@@ -1,9 +1,14 @@
 // Dropdowns
 
 (function() {
-  $('.dropdown, .dropdown a').click(function(e) {
+  $('.dropdown').click(function(e) {
   	$('.dropdown').removeClass('open');
     $(this).toggleClass('open');
+    e.stopPropagation()
+  });
+
+  $('.dropdown a').click(function(e) {
+    $('.dropdown').removeClass('open');
     e.stopPropagation()
   });
 
@@ -13,6 +18,8 @@
   });
 
 }).call(this);
+
+
 
 
 
@@ -34,6 +41,26 @@ $(document).ready(function(){
 
 
 
+
+
+// animate.css
+
+$.fn.extend({
+    animateCss: function (animationName) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        $(this).addClass('animated ' + animationName).one(animationEnd, function() {
+            $(this).removeClass('animated ' + animationName);
+        });
+    }
+});
+
+$('#Animate-1').animateCss('fadeIn');
+$('#Animate-2').animateCss('fadeIn');
+$('#Animate-3').animateCss('fadeIn');
+
+
+
+
 // Equalizer
 /* Thanks to CSS Tricks for pointing out this bit of jQuery http://css-tricks.com/equal-height-blocks-in-rows/ */
 
@@ -50,7 +77,7 @@ var currentTallest = 0,
    $($el).height('auto')
    topPostion = $el.position().top;
 
-   if (currentRowStart !== topPostion) {
+   if (currentRowStart != topPostion) {
      for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
        rowDivs[currentDiv].height(currentTallest);
      }
@@ -75,17 +102,4 @@ $(window).load(function() {
 
 $(window).resize(function(){
   equalheight('.equalize div');
-});
-
-
-
-
-// Menu
-
-$('#open').click(function(e){
-  $('#menu').fadeIn(1000);
-});
-
-$('#close').click(function(e){
-  $('#menu').fadeOut(1000);
 });

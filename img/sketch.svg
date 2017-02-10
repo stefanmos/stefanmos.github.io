@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="412px" height="371px" viewBox="0 0 412 371" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="51.2817675%" cy="124.429908%" fx="51.2817675%" fy="124.429908%" r="24.0945882%" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#E4B428" offset="0%"></stop>
+            <stop stop-color="#C14318" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="74.1477273%" cy="41.9788707%" fx="74.1477273%" fy="41.9788707%" r="86.5166628%" id="radialGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </radialGradient>
+        <polygon id="path-5" points="123.484375 64.1816406 197.860352 1.09179688 0.029296875 264.997803"></polygon>
+        <linearGradient x1="101.568604%" y1="7.1713226%" x2="21.6796875%" y2="67.672822%" id="linearGradient-7">
+            <stop stop-color="#D5861C" offset="0%"></stop>
+            <stop stop-color="#B92C0A" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-8" points="126.5 63 198.175781 -0.458984375 0 264"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-10">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-3" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.0845788043 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-11" points="124.484375 64.1816406 198.860352 1.09179688 -0.115478516 265.18335"></polygon>
+        <polygon id="path-13" points="127.5 63 199.175781 -0.458984375 1 264"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-15">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-3" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.0845788043 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-16" points="248.507905 0 -0.315248271 0 124.007905 201"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-17">
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="41.7988184%" x2="50%" y2="0%" id="linearGradient-18">
+            <stop stop-color="#E7C45A" stop-opacity="0.618121603" offset="0%"></stop>
+            <stop stop-color="#D17F1D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="33.3702581%" id="linearGradient-19">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-20" points="248.507905 0 -0.315248271 0 124.007905 201"></polygon>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="5.7612329%" id="linearGradient-21">
+            <stop stop-color="#E7C358" offset="0%"></stop>
+            <stop stop-color="#DC8328" offset="71.2950415%"></stop>
+            <stop stop-color="#D3611F" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-22" points="8.06872982 2 124 201 241.171929 2"></polygon>
+        <linearGradient x1="50%" y1="98.7442345%" x2="50%" y2="3.8026148%" id="linearGradient-24">
+            <stop stop-color="#E7C358" stop-opacity="0.460427989" offset="34.9609375%"></stop>
+            <stop stop-color="#E19830" stop-opacity="0.808933424" offset="68.8636001%"></stop>
+            <stop stop-color="#DE842A" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="26.5447446%" fx="50%" fy="26.5447446%" r="29.4921875%" id="radialGradient-25">
+            <stop stop-color="#000000" stop-opacity="0.309131567" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="100%"></stop>
+        </radialGradient>
+        <path d="M124.000002,25.1894531 C57.2617285,25.1894531 33.2016241,35.8242182 33.2016241,35.8242182 L124,201 L214.989153,36.8242182 C214.989153,36.8242182 190.738276,25.1894531 124.000002,25.1894531 Z" id="path-26"></path>
+        <polygon id="path-27" points="124 201 167.697445 0 81.391658 0"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-28">
+            <feOffset dx="0" dy="-7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.803921569   0 0 0 0 0.337254902   0 0 0 0 0.101960784  0 0 0 0.202672101 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="100%" id="linearGradient-29">
+            <stop stop-color="#F7EDCE" offset="0%"></stop>
+            <stop stop-color="#E2B62A" offset="62.2010523%"></stop>
+            <stop stop-color="#D14418" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="8.25693559%" x2="50%" y2="100%" id="linearGradient-30">
+            <stop stop-color="#F1DB8F" offset="0%"></stop>
+            <stop stop-color="#E7AC2D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="64.0754595%" id="linearGradient-31">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="1.11022302e-14%" y1="100%" x2="100%" y2="0%" id="linearGradient-32">
+            <stop stop-color="#EED66A" offset="0%"></stop>
+            <stop stop-color="#DD8D1B" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-33" points="55.7724609 -0.237304688 0 63 74.0947266 126.3125 124.539062 35.0507812"></polygon>
+        <linearGradient x1="13.340724%" y1="15.8832673%" x2="93.1770833%" y2="6.62826345%" id="linearGradient-35">
+            <stop stop-color="#FEFCFA" offset="0%"></stop>
+            <stop stop-color="#EDA710" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="6.70387962%" y1="6.03155839%" x2="94.2027699%" y2="89.167866%" id="linearGradient-36">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F6B823" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="3.74939946e-31%" y1="100%" x2="100%" y2="76.0899698%" id="linearGradient-37">
+            <stop stop-color="#FDFCF8" offset="0%"></stop>
+            <stop stop-color="#E8C456" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="95.8187181%" id="linearGradient-38">
+            <stop stop-color="#F2DEA0" offset="0%"></stop>
+            <stop stop-color="#F2DEA0" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-39" points="54.96875 -6.75683594 73.8662109 127.417969 -2.92089844 64.8085938"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-40">
+            <feGaussianBlur stdDeviation="2.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="-2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.782844388   0 0 0 0 0.423692742   0 0 0 0 0.0985659896  0 0 0 0.464702219 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-41" points="55.7724609 -0.237304688 0 63 74.0947266 126.3125 124.539062 35.0507812"></polygon>
+        <polygon id="path-43" points="54.96875 -6.75683594 73.8662109 127.417969 -2.92089844 64.8085938"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-44">
+            <feGaussianBlur stdDeviation="2.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="-2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.782844388   0 0 0 0 0.423692742   0 0 0 0 0.0985659896  0 0 0 0.464702219 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="37.6228933%" id="linearGradient-45">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#ECD077" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="87.5234375%" y1="50%" x2="9.896875%" y2="50%" id="linearGradient-46">
+            <stop stop-color="#E8C358" offset="0%"></stop>
+            <stop stop-color="#E29E31" offset="50.8828922%"></stop>
+            <stop stop-color="#D96221" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-47" points="125.020508 33.7719727 249 91 -0.0454101562 91"></polygon>
+        <linearGradient x1="96.6711957%" y1="50%" x2="2.4333004%" y2="50%" id="linearGradient-49">
+            <stop stop-color="#F1DB8B" offset="0%"></stop>
+            <stop stop-color="#E57B2B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sketch" transform="translate(-194.000000, -79.000000)">
+            <g id="Sketch_Gem" transform="translate(202.000000, 78.000000)">
+                <g id="Group">
+                    <path d="M198.029297,104.712891 L0.139648438,104.712891 L198.029297,362.766936 L198.029297,363.997803 L198.500779,363.381763 L199.115479,364.18335 L199.115479,362.578595 L396.587891,104.560547 L198.029297,104.560547 L198.029297,104.712891 Z" id="shadow1" fill="url(#radialGradient-1)" style="mix-blend-mode: soft-light;" filter="url(#filter-2)"></path>
+                    <g id="left" transform="translate(99.000000, 227.500000) scale(-1, 1) translate(-99.000000, -227.500000) translate(0.000000, 95.000000)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="Triangle-22">
+                            <use fill="url(#linearGradient-3)" xlink:href="#path-5"></use>
+                            <use fill="url(#radialGradient-4)" style="mix-blend-mode: overlay;" xlink:href="#path-5"></use>
+                        </g>
+                        <polygon id="Triangle-16" fill-opacity="0.699999988" fill="url(#linearGradient-7)" mask="url(#mask-6)" points="115.832031 76.9121094 197.167969 2.46289062 167.799805 43.0205078 101.438477 100.956055"></polygon>
+                        <mask id="mask-9" fill="white">
+                            <use xlink:href="#path-8"></use>
+                        </mask>
+                        <g id="Triangle-20" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-10)" xlink:href="#path-8"></use>
+                        </g>
+                    </g>
+                    <g id="right" transform="translate(198.000000, 95.000000)">
+                        <mask id="mask-12" fill="white">
+                            <use xlink:href="#path-11"></use>
+                        </mask>
+                        <g id="Triangle-15">
+                            <use fill="url(#linearGradient-3)" xlink:href="#path-11"></use>
+                            <use fill="url(#radialGradient-4)" style="mix-blend-mode: overlay;" xlink:href="#path-11"></use>
+                        </g>
+                        <polygon id="Triangle-16" fill-opacity="0.699999988" fill="url(#linearGradient-7)" mask="url(#mask-12)" points="116.832031 76.9121094 198.167969 2.46289062 168.799805 43.0205078 101.729736 100.879395"></polygon>
+                        <mask id="mask-14" fill="white">
+                            <use xlink:href="#path-13"></use>
+                        </mask>
+                        <g id="Triangle-20" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-15)" xlink:href="#path-13"></use>
+                        </g>
+                    </g>
+                    <g id="Central" transform="translate(74.000000, 159.000000)">
+                        <g id="Triangle-21">
+                            <use fill="#E99A1B" fill-rule="evenodd" xlink:href="#path-16"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-17)" xlink:href="#path-16"></use>
+                        </g>
+                        <g id="Triangle-17">
+                            <use fill="url(#linearGradient-18)" style="mix-blend-mode: overlay;" xlink:href="#path-20"></use>
+                            <use fill-opacity="0.5" fill="url(#linearGradient-19)" style="mix-blend-mode: screen;" xlink:href="#path-20"></use>
+                        </g>
+                        <mask id="mask-23" fill="white">
+                            <use xlink:href="#path-22"></use>
+                        </mask>
+                        <use id="Triangle-14" fill="url(#linearGradient-21)" xlink:href="#path-22"></use>
+                        <g id="Triangle-18">
+                            <use fill="url(#linearGradient-24)" xlink:href="#path-26"></use>
+                            <use fill-opacity="0.779999971" fill="url(#radialGradient-25)" style="mix-blend-mode: soft-light;" xlink:href="#path-26"></use>
+                        </g>
+                        <g id="Triangle-19">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-28)" xlink:href="#path-27"></use>
+                            <use fill-opacity="0.200000018" fill="#FFFFFF" fill-rule="evenodd" style="mix-blend-mode: overlay;" xlink:href="#path-27"></use>
+                        </g>
+                        <polygon id="Triangle-17" fill-opacity="0.245000005" fill="#F6B823" points="241.849852 10.7636719 248.507905 0 -0.315248271 0 6.35577414 10.7636719"></polygon>
+                    </g>
+                    <g id="Top" transform="translate(1.000000, 0.000000)">
+                        <path d="M54.4560547,34.1289062 L0.1796875,95.8105469 C0.1796875,95.8105469 132.794271,115.810547 199.101563,115.810547 C264.820313,115.810547 396.257813,95.8105469 396.257813,95.8105469 L340.18811,32.7919922 L340,31 L56,31 L54.4560547,34.1289062 Z" id="Rectangle-5" fill="#FFFFFF"></path>
+                        <path d="M125.757813,61 L270.242188,61 L340,31 L56,31 L125.757813,61 Z M125.757812,1 L270.242188,1 L340,31 L56,31 L125.757812,1 Z" id="Rectangle-8" fill="url(#linearGradient-29)"></path>
+                        <polygon id="Triangle-1" fill-opacity="0.710000038" fill="url(#linearGradient-30)" style="mix-blend-mode: color-burn;" points="198 30 270 61 126 61"></polygon>
+                        <polygon id="Triangle-9" fill="url(#linearGradient-31)" transform="translate(198.000000, 15.500000) scale(1, -1) translate(-198.000000, -15.500000) " points="198 0 270 31 126 31"></polygon>
+                    </g>
+                    <g id="left_top" transform="translate(0.000000, 33.000000)">
+                        <mask id="mask-34" fill="white">
+                            <use xlink:href="#path-33"></use>
+                        </mask>
+                        <use id="Rectangle-5" fill="url(#linearGradient-32)" xlink:href="#path-33"></use>
+                        <polygon id="Triangle-6" fill="url(#linearGradient-35)" mask="url(#mask-34)" points="62.5209922 48.9919787 73.6796875 126.755859 -2.1640625 63.4033203"></polygon>
+                        <polygon id="Rectangle-7" fill="url(#linearGradient-36)" style="mix-blend-mode: screen;" opacity="0.609724813" mask="url(#mask-34)" points="-3.64160156 63.3720703 75.6533203 129.995117 83.5039062 119.205078 11.3583984 59.3964844"></polygon>
+                        <polygon id="Triangle-5" fill="url(#linearGradient-37)" mask="url(#mask-34)" points="55.4794922 -3.07421875 62.7988016 48.8878434 -2.25830078 63.4472656"></polygon>
+                        <polygon id="Triangle-7" fill="url(#linearGradient-38)" mask="url(#mask-34)" points="55.472168 -2.75830078 126.56543 34.6049805 62.5911271 49.0374366"></polygon>
+                        <g id="Triangle-8" mask="url(#mask-34)" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-40)" xlink:href="#path-39"></use>
+                        </g>
+                    </g>
+                    <g id="right_top" transform="translate(334.500000, 96.000000) scale(-1, 1) translate(-334.500000, -96.000000) translate(272.000000, 33.000000)">
+                        <mask id="mask-42" fill="white">
+                            <use xlink:href="#path-41"></use>
+                        </mask>
+                        <use id="Rectangle-5" fill="url(#linearGradient-32)" xlink:href="#path-41"></use>
+                        <polygon id="Triangle-6" fill="url(#linearGradient-35)" mask="url(#mask-42)" points="62.5209922 48.9919787 73.6796875 126.755859 -2.1640625 63.4033203"></polygon>
+                        <polygon id="Rectangle-7" fill="url(#linearGradient-36)" style="mix-blend-mode: screen;" opacity="0.609724813" mask="url(#mask-42)" points="-3.64160156 63.3720703 75.6533203 129.995117 83.5039062 119.205078 11.3583984 59.3964844"></polygon>
+                        <polygon id="Triangle-5" fill="url(#linearGradient-37)" mask="url(#mask-42)" points="55.4794922 -3.07421875 62.7988016 48.8878434 -2.25830078 63.4472656"></polygon>
+                        <polygon id="Triangle-7" fill="url(#linearGradient-38)" mask="url(#mask-42)" points="55.472168 -2.75830078 126.56543 34.6049805 62.5911271 49.0374366"></polygon>
+                        <g id="Triangle-8" mask="url(#mask-42)" fill-opacity="1" fill="black">
+                            <use filter="url(#filter-44)" xlink:href="#path-43"></use>
+                        </g>
+                    </g>
+                    <g id="central_top" transform="translate(74.000000, 68.000000)">
+                        <polygon id="Triangle-3" fill="url(#linearGradient-45)" points="50.3056641 0.0170898438 125.297363 34.1499023 -0.331542969 91.3203125"></polygon>
+                        <polygon id="Triangle-2" fill="url(#linearGradient-45)" transform="translate(186.500000, 45.500000) scale(-1, 1) translate(-186.500000, -45.500000) " points="174.305664 0.0170898438 249.297363 34.1499023 123.668457 91.3203125"></polygon>
+                        <mask id="mask-48" fill="white">
+                            <use xlink:href="#path-47"></use>
+                        </mask>
+                        <use id="Triangle-4" fill="url(#linearGradient-46)" xlink:href="#path-47"></use>
+                        <rect id="Rectangle-6" fill="url(#linearGradient-49)" mask="url(#mask-48)" x="-2" y="82" width="253" height="9"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

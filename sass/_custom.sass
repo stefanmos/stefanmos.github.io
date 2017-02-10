@@ -1,0 +1,215 @@
+// Custom SASS
+
+#logo
+  width: 35px
+  position: absolute
+  display: block
+  left: 40px
+  top: 40px
+
+#open
+  width: 20px
+  position: absolute
+  display: block
+  right: 40px
+  top: 40px
+  cursor: pointer
+  z-index: 10
+
+#close
+  width: 20px
+  position: absolute
+  display: block
+  right: 20px
+  top: 20px
+  cursor: pointer
+  z-index: 10
+
+h5
+  a
+    font-size: 9rem
+    font-weight: 700
+    letter-spacing: 2rem
+    color: #1da1f2
+
+.section
+  padding: 0 15%
+
+// Slide out Menu
+
+.hiw
+  width: auto
+  max-height: 50px
+  margin: auto
+  display: block
+
+#menu
+  width: 100%
+  background: #ECECEC
+  border: 20px solid #FFF
+  position: fixed
+  padding: 20px 10px
+  height: 100vh
+  z-index: 9999
+  left: 0
+  top: 0
+  display: none
+  ul li
+    padding: 0
+    margin: 0
+    a
+      font-family: $brand-font
+      text-transform: capitalize
+      font-size: 60rem
+      color: $primary-color
+      &:hover
+        color: #8A8A8A
+      img
+        width: 25px
+        padding: 20px 5px
+        -webkit-filter: grayscale(100%) /* Chrome, Safari, Opera */
+        filter: grayscale(100%)
+        background-blend-mode: multiply
+        &:hover
+          -webkit-filter: grayscale(0) /* Chrome, Safari, Opera */
+          filter: grayscale(0)
+    h5
+      font-size: 8rem
+
+// Navagation
+
+.navagation-bar
+  width: 80%
+  position: absolute
+  z-index: 9
+  bottom: 40px
+  left: 10%
+  right: 10%
+  li
+    width: 20%
+    float: left
+    font-weight: 700
+    text-align: center
+    padding: 10px
+    margin: 0
+    a
+      font-family: $brand-font
+      font-weight: 600
+      text-transform: capitalize
+      font-size: 20rem
+      +transition(.5s)
+      &:hover
+        margin-left: 10px
+        color: #787878
+    p
+      font-size: 10rem
+      font-weight: 200
+      text-transform: capitalize
+
+#stefanmos
+  img
+    height: 30px
+    margin-top: 30px
+
+#sutairu
+  img
+    max-height: 200px
+    margin-bottom: 30px
+  .button
+    &:hover
+      background: #CD6799
+      border: 1px solid #CD6799
+
+#thirtysixty
+  img
+    max-height: 200px
+    margin-bottom: 30px
+  .button
+    &:hover
+      background: #FFEA02
+      border: 1px solid #FFEA02
+      color: #2E2E2E
+
+#wireframekit
+  img
+    max-height: 200px
+    margin-bottom: 30px
+  .button
+    &:hover
+      background: #56D679
+      border: 1px solid #56D679
+
+#smitten
+  img
+    max-height: 200px
+    margin-bottom: 30px
+  .button
+    &:hover
+      background: #DA2E4F
+      border: 1px solid #DA2E4F
+
+#golfersguide
+img
+  max-height: 200px
+  margin-bottom: 30px
+.button
+  &:hover
+    background: #000
+    border: 1px solid #000
+
+#sketch
+  img
+    max-height: 200px
+    margin-bottom: 30px
+  .button
+    &:hover
+      background: #F3BC16
+      border: 1px solid #F3BC16
+
+#scrollermagic
+  img
+    max-height: 200px
+    margin-bottom: 30px
+  .button
+    &:hover
+      background: #B5B5B5
+      border: 1px solid #B5B5B5
+
+.client-grid
+  max-width: 600px
+  margin: auto
+  margin-top: 30px
+.client-logo
+  width: 14.28%
+  padding: 5px 15px
+  float: left
+  img
+    width: 100%
+    margin: 0
+    -webkit-filter: grayscale(100%) /* Chrome, Safari, Opera */
+    filter: grayscale(100%)
+    background-blend-mode: multiply
+    opacity: .3
+    &:hover
+      -webkit-filter: grayscale(0) /* Chrome, Safari, Opera */
+      filter: grayscale(0)
+      opacity: 1
+
+.contact
+  max-width: 400px
+  margin: auto
+  padding: 20px
+
+@media (max-width: $tablet)
+  .navagation-bar
+    display: none
+  h1
+    font-size: 30rem
+  #fp-nav
+    display: none
+  #sutairu, #thirtysixty, #wireframekit, #smitten, #golfersguide, #sketch, #scrollermagic
+    img
+      width: 50%
+      height: auto
+  .client-logo
+    width: 33.3
