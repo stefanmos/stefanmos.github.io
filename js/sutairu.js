@@ -77,9 +77,6 @@ $(window).resize(function(){
   equalheight('.equalize div');
 });
 
-
-
-
 // Menu
 
 $('#open').click(function(e){
