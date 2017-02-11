@@ -628,6 +628,7 @@ hr {
       font-weight: 800;
       text-transform: capitalize;
       font-size: 60rem;
+      line-height: 60rem;
       color: #8A8A8A; }
       #menu ul li a:hover {
         color: #000; }
