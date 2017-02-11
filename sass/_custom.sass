@@ -104,23 +104,29 @@
 
 .section
   text-align: center
-  padding: 0 10%
+  padding: 0 15%
 
 .background-text
   width: 100%
   font-weight: 800
-  font-size: 200px
+  font-size: 200rem
   position: absolute
   text-align: center
   color: #EEEEEE
   z-index: -1
-  margin-left: -10%
+  margin-left: -15%
   top: 25vh
+  @media (max-width: $mobile)
+    top: 30vh
+    font-size: 150rem
 
 #stefanmos
   text-align: center
   .background-text
     font-size: 300px
+    @media (max-width: $mobile)
+      top: 33vh
+      font-size: 180rem
   img
     width: 100px
     margin: 20px auto
@@ -128,9 +134,8 @@
 #smitten
   text-align: center
   img
-    width: 60vh
     height: auto
-    margin: 10px auto
+    width: 80%
 
 #sutairu
   text-align: center
@@ -141,9 +146,8 @@
       background: #D670A2
       color: #FFF
   img
-    width: 60vh
     height: auto
-    margin: 0px auto
+    width: 80%
 
 
 #sketch
@@ -211,4 +215,4 @@
 .contact
   max-width: 400px
   margin: auto
-  padding: 0 20px
+  padding: 0 20%

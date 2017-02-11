@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+@import url(https://www.fontify.me/wf/0e37bbc0afac98c50be8af498565a19f);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -59,6 +60,9 @@ body {
   height: 100vh;
   border: 20px solid #FFF;
   pointer-events: none; }
+  @media (max-width: 480px) {
+    .content-border {
+      border: 10px solid #FFF; } }
 
 [class*='grid']:after {
   content: "";
@@ -200,11 +204,17 @@ h1 {
   font-size: 64rem;
   font-weight: 800;
   letter-spacing: -2rem; }
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 50rem; } }
 
 h2 {
   font-size: 45rem;
   font-weight: 800;
   letter-spacing: -2rem; }
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 30rem; } }
 
 h3 {
   font-size: 32rem; }
@@ -265,7 +275,7 @@ nav {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   padding: 10px 15px;
-  margin: 10px auto;
+  margin: 10px 2px;
   font-weight: 500;
   cursor: pointer;
   color: #000;
@@ -659,23 +669,31 @@ hr {
     font-size: 30rem; } }
 .section {
   text-align: center;
-  padding: 0 10%; }
+  padding: 0 15%; }
 
 .background-text {
   width: 100%;
   font-weight: 800;
-  font-size: 200px;
+  font-size: 200rem;
   position: absolute;
   text-align: center;
   color: #EEEEEE;
   z-index: -1;
-  margin-left: -10%;
+  margin-left: -15%;
   top: 25vh; }
+  @media (max-width: 480px) {
+    .background-text {
+      top: 30vh;
+      font-size: 150rem; } }
 
 #stefanmos {
   text-align: center; }
   #stefanmos .background-text {
     font-size: 300px; }
+    @media (max-width: 480px) {
+      #stefanmos .background-text {
+        top: 33vh;
+        font-size: 180rem; } }
   #stefanmos img {
     width: 100px;
     margin: 20px auto; }
@@ -683,9 +701,8 @@ hr {
 #smitten {
   text-align: center; }
   #smitten img {
-    width: 60vh;
     height: auto;
-    margin: 10px auto; }
+    width: 80%; }
 
 #sutairu {
   text-align: center; }
@@ -696,9 +713,8 @@ hr {
       background: #D670A2;
       color: #FFF; }
   #sutairu img {
-    width: 60vh;
     height: auto;
-    margin: 0px auto; }
+    width: 80%; }
 
 #sketch img {
   max-height: 150px;
@@ -760,7 +776,7 @@ hr {
 .contact {
   max-width: 400px;
   margin: auto;
-  padding: 0 20px; }
+  padding: 0 20%; }
 
 /**
  * fullPage 2.4.3
