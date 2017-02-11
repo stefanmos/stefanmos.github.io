@@ -4,6 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sutairu</title>
   <link rel="stylesheet" href="css/sutairu.css">
+  <script src="js/modernizr.js"></script>
+  <link rel="stylesheet" href="css/map.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
 
@@ -55,7 +58,7 @@
   </div>
 
 
-  <div class="grid">
+  <div class="grid-ful">
     <div id="fullpage">
 
       <div id="stefanmos" class="section contact">
@@ -67,15 +70,27 @@
         <a class="button" href="#">Contact</a>
       </div>
 
-      <div id="stefanmos" class="section">
+      <div id="map" class="section">
+        <span style="position: absolute; z-index: 5; width:100%; margin-top: 20vh;">
         <h1>Where</h1>
         <h5>MAP</h5>
+        </span>
+        <section id="cd-google-map" style="width:100%; height:100vh; opacity: 0.2; margin-top:20px">
+          <div id="google-container"></div>
+          <div id="cd-zoom-in"></div>
+          <div id="cd-zoom-out"></div>
+        </section>
+        </div>
       </div>
 
     </div>
   </div>
 
 </div>
+
+
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src="js/slider.js"></script>
