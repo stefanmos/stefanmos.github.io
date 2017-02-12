@@ -730,6 +730,12 @@ hr {
     height: auto;
     width: 80%; }
 
+#onlygodforgives {
+  text-align: center; }
+  #onlygodforgives img {
+    height: auto;
+    width: 80%; }
+
 #sketch img {
   max-height: 150px;
   width: auto;
