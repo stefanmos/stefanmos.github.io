@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="121px" height="110px" viewBox="0 0 121 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="61 9.09494702e-13 25.0161514 70.3993289 0.5 70.3993289"></polygon>
+        <polygon id="path-2" points="36.0060729 8.52651283e-13 72.0121457 70.3993289 -9.9475983e-14 70.3993289"></polygon>
+        <polygon id="path-3" points="-4.97379915e-14 35.5676052 13.4716599 17.6611557 26.208502 8.82710649e-13 1.46963563 2.27373675e-13"></polygon>
+        <polygon id="path-4" points="34.291498 35.5676052 36.0060729 1.84741111e-13 -1.0658141e-14 39.2470126"></polygon>
+    </defs>
+    <g id="Wireframe/Prototype-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6" transform="translate(0.000000, -1.000000)">
+            <g id="Group-Copy-2" transform="translate(0.000000, 1.000000)">
+                <g id="Base" fill="#EC6C00">
+                    <polygon id="Polygon" transform="translate(60.500000, 54.823171) rotate(-180.000000) translate(-60.500000, -54.823171) " points="60.5 1.42108547e-13 121 70.3993289 94.791498 105.966934 60.5 109.646341 26.208502 105.966934 -5.68434189e-14 70.3993289"></polygon>
+                </g>
+                <g id="Bottom-Back" transform="translate(60.000000, 39.247013)">
+                    <g id="Polygon" transform="translate(30.750000, 35.199664) rotate(-180.000000) translate(-30.750000, -35.199664) ">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <path stroke="#EC6C00" stroke-width="1" d="M58.6466301,3.50558208 L24.7101911,69.8993289 L1.58896003,69.8993289 L58.6466301,3.50558208 Z"></path>
+                    </g>
+                </g>
+                <g id="Bottom-Mid" transform="translate(24.493927, 39.247013)">
+                    <g id="Polygon" transform="translate(36.006073, 35.199664) rotate(-180.000000) translate(-36.006073, -35.199664) ">
+                        <use fill="#FFAE00" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <path stroke="#FFAE00" stroke-width="1" d="M36.0060729,1.09804767 L71.1948166,69.8993289 L0.817329112,69.8993289 L36.0060729,1.09804767 Z"></path>
+                    </g>
+                </g>
+                <g id="Top-Mid" transform="translate(24.493927, 0.000000)" fill="#FFEFB4">
+                    <polygon id="Polygon" transform="translate(36.006073, 19.623506) rotate(-180.000000) translate(-36.006073, -19.623506) " points="36.0060729 39.2470126 72.0121457 2.66533708e-13 -9.9475983e-14 -4.12114787e-13"></polygon>
+                </g>
+                <g id="Top-Side-Left" transform="translate(0.000000, 3.679407)" fill="#FFAE00">
+                    <polygon id="Polygon" transform="translate(13.104251, 17.783803) rotate(-180.000000) translate(-13.104251, -17.783803) " points="-7.10542736e-14 35.5676052 13.4716599 17.6611557 26.208502 8.82710649e-13 1.46963563 2.27373675e-13"></polygon>
+                </g>
+                <g id="Top-Side-Right" transform="translate(107.500000, 21.679407) scale(-1, 1) translate(-107.500000, -21.679407) translate(94.000000, 3.679407)">
+                    <g id="Polygon" transform="translate(13.104251, 17.783803) rotate(-180.000000) translate(-13.104251, -17.783803) ">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <path stroke="#FFAE00" stroke-width="1" d="M0.565869136,33.9837889 L1.94940252,0.5 L25.2314516,0.5 L13.0661195,17.3686887 L0.565869136,33.9837889 Z"></path>
+                    </g>
+                </g>
+                <g id="Top-Left" transform="translate(24.493927, 0.000000)" fill="#FED305">
+                    <polygon id="Polygon" transform="translate(18.003036, 19.623506) rotate(-180.000000) translate(-18.003036, -19.623506) " points="34.291498 35.5676052 36.0060729 1.10844667e-12 -5.40012479e-13 39.2470126"></polygon>
+                </g>
+                <g id="Top-Right" transform="translate(60.500000, 0.000000)">
+                    <g id="Polygon" transform="translate(18.003036, 19.623506) scale(-1, 1) rotate(-180.000000) translate(-18.003036, -19.623506) ">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <path stroke="#FED305" stroke-width="1" d="M33.8126821,35.1161112 L1.2643421,38.6084813 L35.4400991,1.35653299 L33.8126821,35.1161112 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
