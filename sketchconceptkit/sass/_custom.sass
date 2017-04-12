@@ -1,0 +1,130 @@
+// Custom SASS
+
+.header
+  padding: 10vh 0
+  display: block
+  position: absolute
+  top: 0
+  -webkit-transform: translate3d(0, 0, 1000px)
+  transform: translate3d(0, 0, 1000px)
+  h1
+    color: #FFF
+    font-size: 40rem
+    text-transform: uppercase
+  img
+    width: 60px
+    height: 50px
+    margin-left: -70px
+    margin-bottom: -60px
+    @media (max-width: $tablet)
+      margin-left: 0px
+      margin-bottom: 10px
+  .right
+    text-align: right
+    .price
+      font-weight: 500
+      font-size: 60rem
+      span
+        display: block
+        font-size: 30rem
+        margin-bottom: -15px
+        margin-right: 75px
+      @media (max-width: $tablet)
+        text-align: left
+        span
+          margin-left: -15px
+  .mocks
+    img
+      width: 200px
+      height: auto
+      margin: 0px
+
+.intro
+  padding: 20vh 0
+  @media (max-width: $tablet)
+    padding: 10vh 20px
+
+.freeDownload
+  background: #F9F9F9
+  // background-image: url("../img/freeDownload.jpg")
+  // background-size: cover
+  height: 600px
+  .grid
+    margin-top: -450px
+    @media (max-width: $tablet)
+      margin-top: -550px
+    -webkit-transform: translate3d(0, 0, 1000px)
+    transform: translate3d(0, 0, 1000px)
+    // .button
+    //   background: #EC6C00
+    //   border: 2px solid #EC6C00
+    //   -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2)
+    //   -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2)
+    //   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2)
+    //   &:hover
+    //     background: #000
+    //     border: 2px solid #000
+    //     color: #FFF
+    //     -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3)
+    //     -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3)
+    //     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3)
+    .imageContainer
+      background-image: url("../img/freekit.jpg")
+      background-size: cover
+      border-radius: 10px
+      height: 300px
+      @media (max-width: $tablet)
+        height: 200px
+      -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2)
+      -moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2)
+      box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2)
+
+.quote
+  font-style: italic
+  font-size: 24rem
+  line-height: 34rem
+  color: #292929
+
+.features
+  text-align: center
+  padding: 20vh 0
+  @media (max-width: $tablet)
+    padding: 10vh 20px
+    text-align: left
+  p
+    font-size: 14rem
+    line-height: 16rem
+  img
+    width: 40px
+  .column-3-12
+    padding: 20px 10px
+    div
+      text-align: left
+      float: left
+      &:nth-child(1)
+        width: 25%
+        @media (max-width: $tablet)
+          width: 20%
+      &:nth-child(2)
+        width: 75%
+        @media (max-width: $tablet)
+          width: 80%
+
+.sketchapp
+  background-image: url("../img/sketch.jpg")
+  background-size: cover
+  background-position: center
+  padding: 15vh 0 50vh 0
+  text-align: center
+  @media (max-width: $tablet)
+    padding: 10vh 20px 30vh 20px
+    text-align: left
+
+footer
+  background: #F9F9F9
+  padding: 20vh 0
+  text-align: center
+  img
+    display: block
+    width: 200px
+    margin: auto
