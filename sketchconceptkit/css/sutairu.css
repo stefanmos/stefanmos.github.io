@@ -186,6 +186,9 @@ body {
   font-weight: 300;
   text-align: left;
   color: #3B3B3B; }
+  @media (max-width: 700px) {
+    body {
+      font-weight: 400; } }
 
 h1, h2, h3, h4, h5, h6, small {
   font-weight: 600;
@@ -205,7 +208,7 @@ h3 {
 
 h4 {
   font-size: 16rem;
-  color: #EC6C00;
+  color: #BEBEBE;
   font-weight: 300; }
 
 h5 {
@@ -258,10 +261,10 @@ nav {
 
 .button, .button-left, .button-right, .button-group .button {
   display: inline-block;
-  border: 2px solid #000;
+  border: 2px solid #0092EC;
   border-radius: 2px;
   text-align: center;
-  background: #000;
+  background: #0092EC;
   font-size: 10rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -276,18 +279,19 @@ nav {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
   .button:hover, .button-left:hover, .button-right:hover {
-    background: #FFF;
-    color: #000;
-    border: 2px solid #FFF;
-    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5); }
+    background: #20aaff;
+    color: #FFF;
+    border: 2px solid #20aaff;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3); }
 
 .outline {
   border: 2px solid #FFF;
   background: none;
   color: #FFF; }
   .outline:hover {
+    border: 2px solid #FFF;
     background: #FFF;
     color: #000; }
 
@@ -584,13 +588,15 @@ hr {
   transform: translate3d(0, 0, 0); }
   @media (max-width: 700px) {
     .tech-slideshow {
-      max-width: 100%; } }
+      max-width: 100%;
+      opacity: 0.4; } }
 
 .tech-slideshow > div {
   width: 100%;
   height: 1500px;
   background-image: url("../img/images.png");
   background-repeat: repeat-y;
+  background-size: 100% auto;
   position: absolute;
   top: 0;
   left: 0;
@@ -599,7 +605,7 @@ hr {
 
 .tech-slideshow .mover {
   -webkit-animation: moveSlideshow 80s linear infinite;
-  animation: moveSlideshow 80s linear infinite; }
+  animation: moveSlideshow 40s linear infinite; }
 
 @-webkit-keyframes moveSlideshow {
   100% {
@@ -653,7 +659,7 @@ hr {
   padding: 20vh 0; }
   @media (max-width: 700px) {
     .intro {
-      padding: 10vh 20px; } }
+      padding: 15vh 20px; } }
 
 .freeDownload {
   background: #F9F9F9;
@@ -664,10 +670,12 @@ hr {
     transform: translate3d(0, 0, 1000px); }
     @media (max-width: 700px) {
       .freeDownload .grid {
-        margin-top: -550px; } }
+        margin-top: -550px;
+        text-align: center; } }
     .freeDownload .grid .imageContainer {
       background-image: url("../img/freekit.jpg");
       background-size: cover;
+      background-position: center;
       border-radius: 10px;
       height: 300px;
       -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.2);
@@ -688,8 +696,7 @@ hr {
   padding: 20vh 0; }
   @media (max-width: 700px) {
     .features {
-      padding: 10vh 20px;
-      text-align: left; } }
+      padding: 10vh 20px; } }
   .features p {
     font-size: 14rem;
     line-height: 16rem; }
@@ -704,23 +711,27 @@ hr {
         width: 25%; }
         @media (max-width: 700px) {
           .features .column-3-12 div:nth-child(1) {
-            width: 20%; } }
+            width: 15%; } }
       .features .column-3-12 div:nth-child(2) {
         width: 75%; }
         @media (max-width: 700px) {
           .features .column-3-12 div:nth-child(2) {
-            width: 80%; } }
+            width: 85%; } }
 
 .sketchapp {
-  background-image: url("../img/sketch.jpg");
-  background-size: cover;
-  background-position: center;
-  padding: 15vh 0 50vh 0;
+  background-color: #FBBE3C;
+  background-image: url("../img/sketch.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 50% auto;
+  padding: 15vh 0 40vh 0;
   text-align: center; }
+  .sketchapp h4 {
+    color: rgba(0, 0, 0, 0.3); }
   @media (max-width: 700px) {
     .sketchapp {
-      padding: 10vh 20px 30vh 20px;
-      text-align: left; } }
+      padding: 10vh 20px 20vh 20px;
+      background-size: 80% auto; } }
 
 footer {
   background: #F9F9F9;

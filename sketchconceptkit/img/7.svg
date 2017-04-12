@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>push-pin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Sales-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-42" transform="translate(-773.000000, -2140.000000)">
+            <g id="push-pin" transform="translate(773.000000, 2140.000000)">
+                <path d="M35.0284314,35.0333333 L49.0254902,49.0313725" id="Shape" stroke="#E0E1E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M34.3137255,35.7480392 L20.0509804,50.0117647 C16.5362745,41.1852941 20.5754902,32.2176471 20.5754902,32.2176471 L7.37941176,16.704902 C7.37941176,16.704902 3.07941176,17.395098 0.00490196078,14.954902 L14.9607843,0 C14.9607843,0 17.4196078,3.05588235 16.6941176,7.45784314 L32.1696078,20.6245098 C32.1696078,20.6245098 40.4960784,16.3254902 49.9637255,20.0980392 L34.3137255,35.7480392 Z" id="Shape" fill="#EFCE4A" fill-rule="nonzero"></path>
+                <path d="M20.5754902,32.2166667 C20.5754902,32.2166667 20.5401961,32.2990196 20.4911765,32.4176471 L32.3892157,20.5196078 C32.2588235,20.5803922 32.1686275,20.6245098 32.1686275,20.6245098 L16.7441176,7.50098039 L7.45392157,16.7911765 L20.5754902,32.2166667 Z" id="Shape" fill="#EBBA16" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

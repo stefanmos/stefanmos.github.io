@@ -25,10 +25,10 @@ nav
 
 .button
   display: inline-block
-  border: 2px solid #000
+  border: 2px solid #0092EC
   border-radius: 2px
   text-align: center
-  background: #000
+  background: #0092EC
   font-size: 10rem
   text-transform: uppercase
   letter-spacing: 0.1em
@@ -39,18 +39,19 @@ nav
   color: #FFF
   +transition(.5s)
   &:hover
-    background: #FFF
-    color: #000
-    border: 2px solid #FFF
-    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5)
-    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5)
-    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5)
+    background: lighten( #0092EC, 10%)
+    color: #FFF
+    border: 2px solid lighten( #0092EC, 10%)
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.3)
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.3)
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.3)
 
 .outline
   border: 2px solid #FFF
   background: none
   color: #FFF
   &:hover
+    border: 2px solid #FFF
     background: #FFF
     color: #000
 

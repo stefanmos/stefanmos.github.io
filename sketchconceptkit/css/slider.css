@@ -7,10 +7,10 @@ Error: Undefined variable: "$tablet".
 3:   max-width: 50%
 4:   @media (max-width: $tablet)
 5:     max-width: 100%
-6:   position: relative
-7:   overflow: hidden
-8:   -webkit-transform: translate3d(0, 0, 0)
-9:   transform: translate3d(0, 0, 0)
+6:     opacity: .4
+7:   position: relative
+8:   overflow: hidden
+9:   -webkit-transform: translate3d(0, 0, 0)
 
 Backtrace:
 sass/slider.sass:4
@@ -57,19 +57,15 @@ sass/slider.sass:4
 /Users/stefanmos/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
 /Users/stefanmos/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
 /Users/stefanmos/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/stefanmos/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:294:in `watch'
-/Users/stefanmos/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin.rb:109:in `method_missing'
-/Users/stefanmos/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
-/Users/stefanmos/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/Users/stefanmos/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
-/Users/stefanmos/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
-/Users/stefanmos/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
-/Users/stefanmos/.rvm/gems/ruby-2.4.0/bin/sass:22:in `load'
-/Users/stefanmos/.rvm/gems/ruby-2.4.0/bin/sass:22:in `<main>'
-/Users/stefanmos/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `eval'
-/Users/stefanmos/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `<main>'
+/Users/stefanmos/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Users/stefanmos/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Users/stefanmos/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/stefanmos/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/stefanmos/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Users/stefanmos/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Users/stefanmos/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$tablet\".\A         on line 4 of sass/slider.sass\A \A 1: .tech-slideshow\A 2:   height: 600px\A 3:   max-width: 50%\A 4:   @media (max-width: $tablet)\A 5:     max-width: 100%\A 6:   position: relative\A 7:   overflow: hidden\A 8:   -webkit-transform: translate3d(0, 0, 0)\A 9:   transform: translate3d(0, 0, 0)"; }
+  content: "Error: Undefined variable: \"$tablet\".\A         on line 4 of sass/slider.sass\A \A 1: .tech-slideshow\A 2:   height: 600px\A 3:   max-width: 50%\A 4:   @media (max-width: $tablet)\A 5:     max-width: 100%\A 6:     opacity: .4\A 7:   position: relative\A 8:   overflow: hidden\A 9:   -webkit-transform: translate3d(0, 0, 0)"; }

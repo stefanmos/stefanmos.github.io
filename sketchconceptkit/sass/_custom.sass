@@ -42,7 +42,7 @@
 .intro
   padding: 20vh 0
   @media (max-width: $tablet)
-    padding: 10vh 20px
+    padding: 15vh 20px
 
 .freeDownload
   background: #F9F9F9
@@ -53,6 +53,7 @@
     margin-top: -450px
     @media (max-width: $tablet)
       margin-top: -550px
+      text-align: center
     -webkit-transform: translate3d(0, 0, 1000px)
     transform: translate3d(0, 0, 1000px)
     // .button
@@ -71,6 +72,7 @@
     .imageContainer
       background-image: url("../img/freekit.jpg")
       background-size: cover
+      background-position: center
       border-radius: 10px
       height: 300px
       @media (max-width: $tablet)
@@ -90,7 +92,6 @@
   padding: 20vh 0
   @media (max-width: $tablet)
     padding: 10vh 20px
-    text-align: left
   p
     font-size: 14rem
     line-height: 16rem
@@ -104,21 +105,25 @@
       &:nth-child(1)
         width: 25%
         @media (max-width: $tablet)
-          width: 20%
+          width: 15%
       &:nth-child(2)
         width: 75%
         @media (max-width: $tablet)
-          width: 80%
+          width: 85%
 
 .sketchapp
-  background-image: url("../img/sketch.jpg")
-  background-size: cover
-  background-position: center
-  padding: 15vh 0 50vh 0
+  background-color: #FBBE3C
+  background-image: url("../img/sketch.png")
+  background-repeat: no-repeat
+  background-position: center bottom
+  background-size: 50% auto
+  padding: 15vh 0 40vh 0
   text-align: center
+  h4
+    color: rgba(0, 0, 0, .3)
   @media (max-width: $tablet)
-    padding: 10vh 20px 30vh 20px
-    text-align: left
+    padding: 10vh 20px 20vh 20px
+    background-size: 80% auto
 
 footer
   background: #F9F9F9
