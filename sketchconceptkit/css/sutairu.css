@@ -693,7 +693,9 @@ hr {
 
 .features {
   text-align: center;
-  padding: 20vh 0; }
+  padding: 30vh 0; }
+  .features h4 {
+    margin-bottom: 50px; }
   @media (max-width: 700px) {
     .features {
       padding: 10vh 20px; } }
@@ -701,7 +703,7 @@ hr {
     font-size: 14rem;
     line-height: 16rem; }
   .features img {
-    width: 40px; }
+    width: 30px; }
   .features .column-3-12 {
     padding: 20px 10px; }
     .features .column-3-12 div {
