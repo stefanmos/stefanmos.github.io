@@ -261,10 +261,10 @@ nav {
 
 .button, .button-left, .button-right, .button-group .button {
   display: inline-block;
-  border: 2px solid #0092EC;
+  border: 2px solid #288ade;
   border-radius: 2px;
   text-align: center;
-  background: #0092EC;
+  background: #288ade;
   font-size: 10rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -279,12 +279,12 @@ nav {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
   .button:hover, .button-left:hover, .button-right:hover {
-    background: #20aaff;
+    background: #54a2e5;
     color: #FFF;
-    border: 2px solid #20aaff;
-    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3); }
+    border: 2px solid #54a2e5;
+    -webkit-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2); }
 
 .outline {
   border: 2px solid #FFF;
