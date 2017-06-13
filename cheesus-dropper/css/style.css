@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:500");
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  padding: 50px 0;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-weight: 500;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  text-align: center; }
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  text-align: left; }
+
+.dropdown-list {
+  background: #fff;
+  border: 1px solid #E1E1E1;
+  border-radius: 3px;
+  list-style: none;
+  margin-top: 5px;
+  padding: 0;
+  position: absolute;
+  opacity: 0;
+  right: 0;
+  top: 125%;
+  transition: opacity .25s linear, top .25s linear;
+  visibility: hidden; }
+  .dropdown-list a {
+    text-decoration: none; }
+  .dropdown.is-open .dropdown-list {
+    opacity: 1;
+    top: 100%;
+    visibility: visible; }
+
+.dropdown-item {
+  color: #434A54;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 6px 12px;
+  overflow: hidden;
+  transition: background-color .25s linear;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+  .dropdown-item:hover {
+    background-color: #E6E9ED; }
+
+.btn {
+  border: 0;
+  display: inline-block;
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  vertical-align: middle;
+  -webkit-appearance: none; }
+  .btn:hover, .btn:focus {
+    outline: none;
+    text-decoration: none; }
+  .btn:not(:disabled) {
+    cursor: pointer; }
+
+.btn--dropdown {
+  background-color: gold;
+  border-radius: 3px;
+  color: black;
+  font-size: 14px;
+  line-height: 20px;
+  min-height: 32px;
+  padding: 6px 34px 6px 12px;
+  transition: background-color .2s linear; }
+  .btn--dropdown:hover {
+    background-color: gold; }
+  .btn--dropdown:after {
+    border: 5px solid transparent;
+    border-top-color: black;
+    content: "";
+    position: absolute;
+    right: 11px;
+    top: 14px; }
+
+.btn--dropdown-inline {
+  font-size: 14px;
+  padding: 0 15px; }
+  .btn--dropdown-inline:hover {
+    color: gold; }
+    .btn--dropdown-inline:hover:after {
+      border-top-color: gold; }
+  .btn--dropdown-inline:after {
+    border: 5px solid transparent;
+    border-top-color: black;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 8px; }
+
+/*# sourceMappingURL=style.css.map */

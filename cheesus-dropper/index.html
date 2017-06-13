@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Dropdown Component</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+<body>
+
+	<h1>🧀<br>Cheesus Dropper</h1>
+	<h5>Dropdown for your yellow slice of heaven.</h5>
+
+	<div class="dropdown">
+		<span class="btn btn--dropdown js-dropdown__current">Select Cheese</span>
+		<ul class="dropdown-list">
+			<li class="dropdown-item" data-dd-value="Cheddar">Cheddar</li>
+			<li class="dropdown-item" data-dd-value="Feta">Feta</li>
+			<li class="dropdown-item" data-dd-value="Mozzarella">Mozzarella</li>
+			<li class="dropdown-item" data-dd-value="halloumi">halloumi</li>
+			<li class="dropdown-item" data-dd-value="Stilton">Stilton</li>
+		</ul>
+	</div>
+
+	<div class="dropdown">
+		<span class="btn btn--dropdown-inline">Options</span>
+		<ul class="dropdown-list">
+			<a href="#Melt"><li class="dropdown-item" data-dd-value="Melt">Melt</li></a>
+			<a href="#Fry"><li class="dropdown-item" data-dd-value="Fry">Deep Fry</li></a>
+			<a href="#Grate"><li class="dropdown-item" data-dd-value="Grate">Grate</li></a>
+			<a href="#Slice"><li class="dropdown-item" data-dd-value="Slice">Slice</li></a>
+		</ul>
+	</div>
+
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src="js/index.js"></script>
+
+</body>
+
+</html>
