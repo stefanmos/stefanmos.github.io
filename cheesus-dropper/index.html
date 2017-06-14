@@ -1,43 +1,92 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title>Dropdown Component</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> -->
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 
-<body>
+	<body>
 
-	<h1>🧀<br>Cheesus Dropper</h1>
-	<h5>Dropdown for your yellow slice of heaven.</h5>
+		<h1>🧀<br>Cheesus Dropper</h1>
+		<h6>Anything but cheesy, help yourself.</h6>
 
-	<div class="dropdown">
-		<span class="btn btn--dropdown js-dropdown__current">Select Cheese</span>
-		<ul class="dropdown-list">
-			<li class="dropdown-item" data-dd-value="Cheddar">Cheddar</li>
-			<li class="dropdown-item" data-dd-value="Feta">Feta</li>
-			<li class="dropdown-item" data-dd-value="Mozzarella">Mozzarella</li>
-			<li class="dropdown-item" data-dd-value="halloumi">halloumi</li>
-			<li class="dropdown-item" data-dd-value="Stilton">Stilton</li>
-		</ul>
-	</div>
+		<hr>
 
-	<div class="dropdown">
-		<span class="btn btn--dropdown-inline">Options</span>
-		<ul class="dropdown-list">
-			<a href="#Melt"><li class="dropdown-item" data-dd-value="Melt">Melt</li></a>
-			<a href="#Fry"><li class="dropdown-item" data-dd-value="Fry">Deep Fry</li></a>
-			<a href="#Grate"><li class="dropdown-item" data-dd-value="Grate">Grate</li></a>
-			<a href="#Slice"><li class="dropdown-item" data-dd-value="Slice">Slice</li></a>
-		</ul>
-	</div>
+		<h3>Examples</h3>
 
-	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-	<script src="js/index.js"></script>
+		<br>
 
-</body>
+		<h5>Autofills title.</h5>
+		<h6>Button left aligned items.</h6>
+
+		<div class="dropdown dropdown-list-left">
+			<span class="btn btn--dropdown js-dropdown__current">Select Cheese</span>
+			<ul class="dropdown-list">
+				<li class="dropdown-item" data-dropdown-value="Cheddar">Cheddar</li>
+				<li class="dropdown-item" data-dropdown-value="Feta">Feta</li>
+				<li class="dropdown-item" data-dropdown-value="Mozzarella">Mozzarella</li>
+				<li class="dropdown-item" data-dropdown-value="halloumi">halloumi</li>
+				<li class="dropdown-item" data-dropdown-value="Stilton">Stilton</li>
+				<li class="dropdown-item" data-dropdown-value="Paneer">Paneer</li>
+			</ul>
+		</div>
+
+		<hr>
+
+		<h5>Autofills title.</h5>
+		<h6>Inline title determines items width.</h6>
+
+		<div class="dropdown">
+			<span class="btn btn--dropdown-inline js-dropdown__current">Select Cheese</span>
+			<ul class="dropdown-list">
+				<li class="dropdown-item" data-dropdown-value="Cheddar">Cheddar</li>
+				<li class="dropdown-item" data-dropdown-value="Feta">Feta</li>
+				<li class="dropdown-item" data-dropdown-value="Mozzarella">Mozzarella</li>
+				<li class="dropdown-item" data-dropdown-value="halloumi">halloumi</li>
+				<li class="dropdown-item" data-dropdown-value="Stilton">Stilton</li>
+				<li class="dropdown-item" data-dropdown-value="Paneer">Paneer</li>
+			</ul>
+		</div>
+
+		<hr>
+
+		<h5>Fixed title.</h5>
+		<h6>Button right aligned items.</h6>
+
+		<div class="dropdown dropdown-list-right">
+			<span class="btn btn--dropdown">Options</span>
+			<ul class="dropdown-list">
+				<a href="#Melt"><li class="dropdown-item" data-dropdown-value="Melt">Melt</li></a>
+				<a href="#Fry"><li class="dropdown-item" data-dropdown-value="Fry">Deep Fry</li></a>
+				<a href="#Grate"><li class="dropdown-item" data-dropdown-value="Grate">Grate</li></a>
+				<a href="#Slice"><li class="dropdown-item" data-dropdown-value="Slice">Slice</li></a>
+			</ul>
+		</div>
+
+		<hr>
+
+		<h5>Fixed title.</h5>
+		<h6>Button left aligned items.</h6>
+
+		<div class="dropdown dropdown-list-left">
+			<span class="btn btn--dropdown-inline">Options</span>
+			<ul class="dropdown-list">
+				<a href="#Melt"><li class="dropdown-item" data-dropdown-value="Melt">Melt</li></a>
+				<a href="#Fry"><li class="dropdown-item" data-dropdown-value="Fry">Deep Fry</li></a>
+				<a href="#Grate"><li class="dropdown-item" data-dropdown-value="Grate">Grate</li></a>
+				<a href="#Slice"><li class="dropdown-item" data-dropdown-value="Slice">Slice</li></a>
+			</ul>
+		</div>
+
+		<hr>
+
+		<h6>Best served with a glass of red, enjoy...</h6>
+
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+		<script src="js/index.js"></script>
+
+	</body>
 
 </html>
