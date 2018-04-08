@@ -1,0 +1,68 @@
+$col-width: 100% / $col-size
+
+//Grids
+
+[class*='grid']:after
+  content: ""
+  display: table
+  clear: both
+
+.grid-full
+  width: 100%
+
+.grid
+  display: block
+  max-width: $grid-size
+  margin: 0 auto
+
+.overlay-grid
+  position: fixed
+  z-index: -1
+  div
+    position: relative
+    // border: 0.5px solid #F2F2F2
+    height: 140vh
+
+
+//Columns
+
+.col
+  float: left
+  padding: $content-padding
+
+@for $x from 1 through $col-size
+  .col-#{$col-size}-#{$x}
+    width: $col-width * $x
+    @extend .col
+
+@media (min-width: $mobile) and (max-width: $tablet)
+  @for $x from 1 through ($col-size - 1)
+    .col-#{$col-size}-#{$x}
+      width: 50%
+
+@media (max-width: $mobile)
+  @for $x from 1 through ($col-size - 1)
+    .col-#{$col-size}-#{$x}
+      width: 100%
+
+//Push & Pull
+
+@for $x from 1 through $col-size
+  .push-left-#{$col-size}-#{$x}
+    margin-left: (100/$col-size)* $x + unquote("%")
+
+@for $x from 1 through $col-size
+  .push-right-#{$col-size}-#{$x}
+    margin-right: (100/$col-size)* $x + unquote("%")
+
+@for $x from 1 through $col-size
+  .pull-left-#{$col-size}-#{$x}
+    margin-left: unquote("-") + (100/$col-size)* $x + unquote("%")
+
+@for $x from 1 through $col-size
+  .pull-right-#{$col-size}-#{$x}
+    margin-right: unquote("-") + (100/$col-size)* $x + unquote("%")
+
+@media (max-width: $tablet)
+  .push-clear, .pull-clear
+    margin: 0
