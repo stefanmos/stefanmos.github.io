@@ -1,0 +1,264 @@
+@font-face {
+  font-family: 'Optician-Sans';
+  src: url('../fonts/Optician-Sans.woff2') format('woff2'),
+			 url('../fonts/Optician-Sans.woff') format('woff'),
+			 url('../fonts/Optician-Sans.ttf') format('truetype');
+}
+
+*,
+*::after,
+*::before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 4vw;
+	letter-spacing: 1vw;
+	margin: 0;
+	color: black;
+	font-weight: 600;
+}
+
+h5 {
+	color: #A9A9A9;
+}
+
+h6 {
+  font-size: 10px;
+	color: #A9A9A9;
+}
+
+.logo {
+	position: fixed;
+	width: 30px;
+	margin: 30px;
+}
+
+body {
+	font-family: 'Optician-Sans', serif;
+	--background-color: #363dc2;
+	--background-color-2: #141414;
+	--background-color-3: #202692;
+	--link-color: #03b9f1;
+	--link-hover-color: #fff;
+	color: black;
+	background-color: #FFF;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	cursor: none;
+}
+
+
+/* Page Loader */
+.js .loading::before {
+	content: '';
+	position: fixed;
+	z-index: 10000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--background-color);
+}
+
+.js .loading::after {
+	content: '';
+	position: fixed;
+	z-index: 10000;
+	top: calc(50% - 30px);
+	left: calc(50% - 30px);
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 10px solid var(--background-color-2);
+	border-left-color: var(--text-color);
+	animation: loaderAnim 0.8s linear infinite forwards;
+}
+
+@keyframes loaderAnim {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+main {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+/* SVG Morph */
+.morph-wrap {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+}
+
+.morph {
+	position: relative;
+	height: 100%;
+	fill: var(--background-color-2);
+	flex: none;
+}
+
+.content-wrap {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	min-height: 600px;
+}
+
+.content {
+	position: relative;
+	display: grid;
+}
+
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.progress-bar {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  margin: 0 2rem;
+  z-index: 20; }
+  /* @media (max-width: 1200px) {
+    .progress-bar {
+      display: none; } } */
+  .progress-bar__numbers {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem; }
+    .progress-bar__numbers__current-number {
+      color: #000000; }
+    .progress-bar__numbers__total-number {
+      color: rgba(0, 0, 0, 0.5); }
+    .progress-bar__numbers__middle-line {
+      color: rgba(0, 0, 0, 0.5); }
+  .progress-bar__indicator {
+    display: flex;
+    flex-direction: row; }
+    .progress-bar__indicator__bar-container {
+      background-color: rgba(0, 0, 0, 0.05);
+      height: auto;
+      width: 2px;
+			/* border-radius: 3px; */
+      margin-left: 1.6rem;
+      position: relative; }
+      .progress-bar__indicator__bar-container__bar {
+        position: absolute;
+				background-color: black;
+        height: 0%;
+        width: 2px;
+				/* border-radius: 3px; */
+        -webkit-transition: height 1s ease;
+        -moz-transition: height 1s ease;
+        -ms-transition: height 1s ease;
+        -o-transition: height 1s ease;
+        transition: height 1s ease; }
+    .progress-bar__indicator__links {
+      margin-top: 0;
+		}
+      .progress-bar__indicator__links ul {
+        margin: 0 20px;
+				padding: 0;
+			}
+        .progress-bar__indicator__links ul li {
+          line-height: 2;
+          list-style: none; }
+          .progress-bar__indicator__links ul li:before {
+            content: " "; }
+          .progress-bar__indicator__links ul li a {
+            color: rgba(0, 0, 0, 0.2);
+            font-size: 0.6rem;
+            text-decoration: none; }
+          .progress-bar__indicator__links ul li .active {
+            color: black;
+            -webkit-transition: color 1s ease;
+            -moz-transition: color 1s ease;
+            -ms-transition: color 1s ease;
+            -o-transition: color 1s ease;
+            transition: color 1s ease; }
+
+/*# sourceMappingURL=sutairu.css.map */
+
+.cursor {
+	background: #000000;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	position: absolute;
+	pointer-events: none;
+	cursor: none;
+	z-index: 2
+}
+
+#box {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  margin: -22px 0 0 -22px;
+  border-radius: 50%;
+  -webkit-backface-visibility: hidden;
+	pointer-events: none;
+	-webkit-transition: width .5s, height .5s, margin .5s, background .5s; /* Safari */
+  transition: width .5s, height .5s, margin .5s, background .5s;
+	background: rgba(255,255,255,0.05);
+	z-index: 1;
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.04);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.04);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.04);
+  z-index: 1000;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+a:hover{
+	cursor: none;
+}
+
+.spotify {
+  background: black;
+  color: #FFF;
+  border-radius: 100px;
+  padding: 5px 10px;
+  z-index: 100;
+  font-size: 12px;
+}
+
+.spotify:hover{
+	background: #2ebd59;
+  color: black;
+}

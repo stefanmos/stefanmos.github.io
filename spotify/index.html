@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Morphing Background Shapes</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<!-- <script>
+			document.documentElement.className = 'js';
+			var supportsCssVars = function() {
+				var s = document.createElement('style'),
+				support;
+
+				s.innerHTML = "root: { --tmp-var: bold; }";
+				document.head.appendChild(s);
+				support = !!(window.CSS && window.CSS.supports && window.CSS.supports('font-weight', 'var(--tmp-var)'));
+				s.parentNode.removeChild(s);
+				return support;
+			}
+			if (!supportsCssVars()) alert('Please view this demo in a modern browser that supports CSS Variables.')
+		</script> -->
+	</head>
+	<body class="loading">
+
+		<div class="cursor"></div>
+  	<div id='box'></div>
+
+		<img class="logo" src="img/logo.svg" alt="">
+
+		<div class="progress-bar vertical-align">
+			<div class="progress-bar__numbers">
+				<span class="progress-bar__numbers__current-number">01</span>
+				<span class="progress-bar__numbers__middle-line">|</span>
+				<span class="progress-bar__numbers__total-number">05</span>
+			</div>
+			<div class="progress-bar__indicator">
+				<div class="progress-bar__indicator__bar-container">
+					<div class="progress-bar__indicator__bar-container__bar"></div>
+				</div>
+				<div class="progress-bar__indicator__links">
+					<ul>
+						<li><a class="animate-block-text" href="#1">May</a></li>
+						<li><a class="animate-block-text" href="#2">Apr</a></li>
+						<li><a class="animate-block-text" href="#3">Mar</a></li>
+						<li><a class="animate-block-text" href="#4">Feb</a></li>
+						<li><a class="animate-block-text" href="#5">Jan</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<main>
+			<div class="morph-wrap">
+				<svg class="morph" width="1400" height="770" viewBox="0 0 1400 770">
+					<path d="M 262.9,252.2 C 210.1,338.2 212.6,487.6 288.8,553.9 372.2,626.5 511.2,517.8 620.3,536.3 750.6,558.4 860.3,723 987.3,686.5 1089,657.3 1168,534.7 1173,429.2 1178,313.7 1096,189.1 995.1,130.7 852.1,47.07 658.8,78.95 498.1,119.2 410.7,141.1 322.6,154.8 262.9,252.2 Z"/>
+				</svg>
+			</div>
+
+			<div id="1" class="content-wrap reveal">
+				<img style="width: 40vw; margin-bottom: 5vh" src="img/5.png" alt="">
+				<h1>May</h1>
+				<h5>Electronic Collection</h5>
+				<a class="spotify" href="https://open.spotify.com/user/12147298779/playlist/2voAmyfZPGloCzSeNSZLjU?si=xdAK8wZ1SieBOr-uh_gIEQ">Open Playlist</a>
+				<h6>13 Songs - 1h 13min</h6>
+			</div>
+			<div id="2" class="content-wrap reveal">
+				<img style="width: 40vw; margin-bottom: 5vh" src="img/4.png" alt="">
+				<h1>April</h1>
+				<h5>Electronic Collection</h5>
+				<a class="spotify" href="https://open.spotify.com/user/12147298779/playlist/24amQfxIHRcnKLhqlgCbkU?si=1e_9aioMQ3quSfZsHDYwwA">Open Playlist</a>
+				<h6>13 Songs - 1h 13min</h6>
+			</div>
+			<div id="3" class="content-wrap reveal">
+				<img style="width: 40vw; margin-bottom: 5vh" src="img/3.png" alt="">
+				<h1>March</h1>
+				<h5>Electronic Collection</h5>
+				<a class="spotify" href="https://open.spotify.com/user/12147298779/playlist/7CBuQ2qtLi9Pbs2x8VlOFE?si=PZIU7k5bS_-eTOasPM9iYg">Open Playlist</a>
+				<h6>13 Songs - 1h 13min</h6>
+			</div>
+			<div id="4" class="content-wrap reveal">
+				<img style="width: 40vw; margin-bottom: 5vh" src="img/2.png" alt="">
+				<h1>February</h1>
+				<h5>Electronic Collection</h5>
+				<a class="spotify" href="https://open.spotify.com/user/12147298779/playlist/07VLUemQEqis22vF1hnDG4?si=sySj0rECSauPl_1TY4oVkw">Open Playlist</a>
+				<h6>13 Songs - 1h 13min</h6>
+			</div>
+			<div id="5" class="content-wrap reveal content--end">
+				<img style="width: 40vw; margin-bottom: 5vh" src="img/1.png" alt="">
+				<h1>January</h1>
+				<h5>Electronic Collection</h5>
+				<a class="spotify" href="https://open.spotify.com/user/12147298779/playlist/4uS2UJSt81czr6wLlyBhUv?si=qbMyCG4FQl6nKsXDnQNxYQ">Open Playlist</a>
+				<h6>13 Songs - 1h 13min</h6>
+			</div>
+
+		</main>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/anime.min.js"></script>
+		<script src="js/scrollMonitor.js"></script>
+		<script src="js/shapes.js"></script>
+		<script src="js/mouse.js"></script>
+		<script type="text/javascript" src="js/scrollindicator.js"></script>
+	</body>
+</html>
