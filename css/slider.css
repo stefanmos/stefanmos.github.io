@@ -10,7 +10,7 @@ html, body {
   padding: 0;
   overflow: hidden;
   /*Avoid flicker on slides transitions for mobile phones #336 */
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 #superContainer {
   height: 100%;
@@ -148,7 +148,7 @@ html, body {
   width: 8px;
   height: 8px;
   border: 1px solid #000;
-  background: transparent;
+  background: rgba(0, 0, 0, 0);
   border-radius: 50%;
   position: absolute;
   z-index: 1; }

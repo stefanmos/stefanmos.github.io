@@ -190,7 +190,7 @@ main {
 				padding: 0;
 			}
         .progress-bar__indicator__links ul li {
-          line-height: 2;
+          line-height: 1.7;
           list-style: none; }
           .progress-bar__indicator__links ul li:before {
             content: " "; }
