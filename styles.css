@@ -6893,13 +6893,28 @@ video {
   opacity: 0.5;
 }
 
+@media only screen and (max-width: 768px) {
+  .brands img {
+    height: 2.5rem;
+    margin-right: 1rem;
+  }
+}
+
 .brands img:hover {
   opacity: 1;
 }
 
 .table td {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 0;
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .table td {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: table-cell;
+  }
 }
 
 /* Page Loader */
