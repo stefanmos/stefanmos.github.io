@@ -7126,9 +7126,11 @@ main {
   z-index: 20;
 }
 
-/* @media (max-width: 1200px) {
-    .progress-bar {
-      display: none; } } */
+@media (max-width: 1024px) {
+  .progress-bar {
+    display: none;
+  }
+}
 
 .progress-bar__numbers {
   font-size: 1rem;
