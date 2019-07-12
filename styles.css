@@ -7133,7 +7133,8 @@ main {
 }
 
 .progress-bar__numbers {
-  font-size: 1rem;
+  font-size: .5rem;
+  margin-left: 4px;
   font-weight: 400;
 }
 
