@@ -7019,8 +7019,8 @@ video {
 
 @media only screen and (min-width: 768px) {
   .table td {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
     display: table-cell;
   }
 }
