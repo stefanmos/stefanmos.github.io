@@ -14,34 +14,36 @@
     <meta name="theme-color" content="#ffffff">
 
     <link href="styles_v1.1.css" rel="stylesheet">
-  </head>
-  <body class="font-sans bg-gray-900 loading">
+  <link href="styles.css" rel="stylesheet"></head>
+  <body class="font-sans bg-black loading">
 
       <div class="cursor hidden md:block"></div>
       <div id="box" class="hidden md:block"></div>
 
-      <div class="progress-bar vertical-align">
-        <div class="progress-bar__numbers">
-          <span class="progress-bar__numbers__current-number">01</span>
-        </div>
-        <div class="progress-bar__indicator">
-          <div class="progress-bar__indicator__bar-container">
-            <div class="progress-bar__indicator__bar-container__bar"></div>
+      <div class="container mx-auto">
+        <div class="progress-bar vertical-align">
+          <div class="progress-bar__numbers">
+            <span class="progress-bar__numbers__current-number">01</span>
           </div>
-          <div class="progress-bar__indicator__links">
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
+          <div class="progress-bar__indicator">
+            <div class="progress-bar__indicator__bar-container">
+              <div class="progress-bar__indicator__bar-container__bar"></div>
+            </div>
+            <div class="progress-bar__indicator__links">
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+          <div class="progress-bar__numbers">
+            <span class="progress-bar__numbers__total-number">05</span>
           </div>
         </div>
-        <div class="progress-bar__numbers">
-          <span class="progress-bar__numbers__total-number">05</span>
-        </div>
-
       </div>
+
       <main>
         <div class="morph-wrap">
           <svg class="morph" width="1400" height="770" viewBox="0 0 1400 770">
@@ -53,30 +55,35 @@
 
           <div class="p-5 md:p-0 container mx-auto">
             <div class="flex w-full justify-between mt-2 md:mt-12">
-              <div class="magnetic">
-                <img class="w-8" src="img/brands/logo.svg" alt="">
-              </div>
-              <!-- <div class="magnetic">
-                <a href="#" class="text-white">menu</a>
+ 
+              <img class="w-8" src="img/brands/logo.svg" alt="">
+            
+              <!-- <div class="mt-n4">
+                <div class="magnetic">
+                  <a href="" class="grow inline-block items-center justify-center flex w-12 h-12">
+                    <img class="w-3 absolute z-50" src="img/menu.svg" alt="">
+                    <div class="hug"></div>
+                  </a>
+                </div>
               </div> -->
             </div>
 
 
             <h4 class="text-sm text-gray-600 font-medium mt-10 md:mt-16">Stefan Mos</h4>
-            <h1 class="text-2xl md:text-4xl text-white font-bold max-w-2xl leading-none mt-2">Product designer & front-end developer, product design lead at
+            <h1 class="text-2xl md:text-6xl text-white font-bold max-w-5xl leading-none mt-2 font-serif">Product designer & front-end developer, product design lead at
               <a href="https://www.nedbank.co.za" class="hover:text-green-700">Nedbank</a> &
               <a href="https://freethinking.co.za" class="hover:text-red-700">Freethinking</a> consultant.</h1>
-            <h3 class="text-md md:text-lg text-gray-600 font-light max-w-3xl leading-none mt-4">Sketch, Figma, Ruby on Rails, Tailwindcss & React.</h3>
+            <h3 class="text-md md:text-lg text-gray-600 font-normal max-w-3xl leading-none mt-4">Sketch, Figma, Ruby on Rails, Tailwindcss & React.</h3>
 
             <div class="magnetic">
-              <a href="#contact" class="inline-block text-sm text-white bg-gray-800 hover:bg-gold-500 px-6 py-3 rounded mt-8">Get in touch</a>
+              <a href="#contact" class="inline-block text-xs font-medium text-white bg-gray-800 hover:bg-gold-500 px-6 py-3 rounded mt-8">Get in touch</a>
             </div>
 
-            <div class="magnetic">
-              <a href="https://dribbble.com/stefanmos" class="inline-block text-sm text-gray-600 hover:text-gold-500 px-4 py-3">View work</a>
-            </div>
+            <!-- <div class="magnetic">
+              <a href="https://dribbble.com/stefanmos" class="inline-block text-xs font-medium text-gray-600 hover:text-gold-500 px-4 py-3">View work</a>
+            </div> -->
 
-            <span class="block text-xs md:text-xs mt-2 md:mt-4 font-medium">
+            <span class="inline-block md:px-4 text-xxs md:text-xs mt-2 md:mt-4 font-medium">
               <div class="magnetic">
                 <a href="https://twitter.com/stefanmostert" class="inline-block text-white hover:text-gold-500 pr-2 md:pr-4 py-3 rounded">Twitter</a>
               </div>
@@ -94,9 +101,7 @@
               </div>
             </span>
 
-            <!-- <h3 class="text-xs md:text-sm text-gray-500 font-medium max-w-3xl leading-none mt-16">Brands I have worked on</h3> -->
-
-            <div class="flex flex-wrap brands mt-16 md:mr-32 max-w-2xl">
+            <div class="flex flex-wrap brands mt-16 md:mr-32 max-w-4xl">
                 <img src="img/brands/1.png" alt="">
                 <img src="img/brands/2.png" alt="">
                 <img src="img/brands/3.png" alt="">
@@ -119,6 +124,16 @@
                 <img src="img/brands/20.png" alt="">
             </div>
 
+            <!-- <h3 class="text-xs md:text-sm text-gray-500 font-medium max-w-3xl leading-none mt-16">Scroll</h3> -->
+
+            <div class="relative">
+              <div class="arrow-pulse-down">
+                <img class="w-2px ml-3" src="img/down.svg" alt="">
+              </div>
+            </div>
+            
+            
+
           </div>
 
         </div>
@@ -127,24 +142,24 @@
 
             <div class="p-5 md:p-0 container mx-auto">
 
-                <div class="flex flex-wrap md:flex-no-wrap text-white mt-16 md:mt-32">
+                <div class="flex flex-wrap md:flex-no-wrap text-white mt-16 md:mt-48">
                   <div class="w-full md:w-1/2 md:mr-32">
-                    <h3 class="text-3xl font-bold leading-none">About me</h3>
-                    <p class="text-xl md:text-xl font-light mt-6 md:max-w-md">Over 8 years of design and development experience in a wide selection of industries and a specific focus on startups.</p>
+                    <h3 class="text-5xl font-bold font-serif leading-none">About me</h3>
+                    <p class="text-xl md:text-2xl font-light mt-6 md:max-w-sm">Over 8 years of design and development experience in a wide selection of industries and a specific focus on startups.</p>
                     <div class="flex my-10">
                       <span class="mr-10">
                         <h3 class="text-sm text-gray-500 font-medium leading-none">Awards</h3>
-                        <h2 class="text-5xl mt-2 font-bold leading-none">5</h2>
+                        <h2 class="text-6xl mt-2 font-bold leading-none">5</h2>
                       </span>
                       <span>
                         <h3 class="text-sm text-gray-500 font-medium leading-none">Publications</h3>
-                        <h2 class="text-5xl mt-2 font-bold leading-none">3</h2>
+                        <h2 class="text-6xl mt-2 font-bold leading-none">3</h2>
                       </span>
                     </div>
                   </div>
 
                   <div class="w-full md:w-1/2">
-                    <p class="font-light text-gray-400 text-sm">
+                    <p class="font-light text-gray-400 text-normal">
                         My main goal with any project is to have a deep technical understanding. I’m very good at breaking down complex problems, finding more effective ways of solving them, optimizing workflow and increasing value. I particularly enjoy organizational problems and I have built a wide selection of internal tools during my career to assist my peers and clients. <br><br>
 
                         I care about designing clean and beautiful UI’s and my passion has even led me to build my own front-end framework to increase development productivity. <br><br>
@@ -162,7 +177,7 @@
 
               <div class="text-white mt-16 md:mt-32">
 
-                <h3 class="text-3xl font-bold leading-none">Experience</h3>
+                <h3 class="text-5xl font-bold font-serif leading-none">Experience</h3>
 
                 <table class="w-full table mt-6">
                   <tr>
@@ -290,18 +305,31 @@
 
             <div class="p-5 md:p-0 container mx-auto text-white">
 
-                <h3 class="text-3xl font-bold leading-none mt-16 md:mt-32">Get in touch</h3>
+                <h3 class="text-5xl font-bold font-serif leading-none mt-16 md:mt-32">Get in touch</h3>
                 <h4 class="text-xl font-light leading-none mt-10 mb-48">
                   Reach out on <a class="border-b hover:border-gold-500 hover:text-gold-500" href="https://www.linkedin.com/in/stefan-mos-3464aa61/">Linkedin</a> or email me at <a class="border-b hover:border-gold-500 hover:text-gold-500" href="mailto:iamstefanmos@gmail.com?subject=feedback">iamstefanmos@gmail.com</a>
                 </h4>
 
-                <p class="text-xs text-gray-600 mb-10">© Copyright Stefan Mos 2019</p>
+                <p class="text-xs text-gray-800 mb-10">© Copyright Stefan Mos 2019</p>
 
             </div>
 
         </div>
 
       </main>
+
+      <!-- <div id="menu" class="flex w-full h-full z-50 top-0 left-0 fixed items-center bg-gray-900">
+        <a id="close" onmousedown="openMenu();"><img id="menu-icon" class="w-3" src="img/menu.svg" alt=""></a>
+        <div class="container mx-auto">
+          <ul class="text-5xl font-bold text-white text-center">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="reading.html">Reading</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="text-xxs font-normal">&copy; Copyright 2017 Stefan Mos <br> Handcrafted with love in South Africa</li>
+          </ul>
+        </div>
+      </div> -->
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
@@ -314,5 +342,5 @@
     <script src="js/magnet.js"></script>
     <script type="text/javascript" src="js/scrollindicator.js"></script>
 
-  <script type="text/javascript" src="main.js"></script><script type="text/javascript" src="main.js"></script></body>
+  <script type="text/javascript" src="main.js"></script><script type="text/javascript" src="main.js"></script><script type="text/javascript" src="main.js"></script></body>
 </html>
